@@ -8,9 +8,9 @@ For full documentation, installation instructions, system requirements, and guid
 
 Add the SDK to your project using Swift Package Manager:
 
-` ` `
+```
 https://github.com/opentok/opentok-ios-sdk.git
-` ` `
+```
 
 In Xcode, go to **File > Add Package Dependencies…**, paste the URL above, and select the **OpenTokClientSDKVideo** library.
 
