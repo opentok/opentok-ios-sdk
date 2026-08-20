@@ -6,7 +6,7 @@ import PackageDescription
 
 let package = Package(
     name: "OpenTokClientSDKVideo",
-    platforms: [.iOS(.v17)],
+    platforms: [.iOS(.v15)],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
@@ -19,8 +19,8 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(name: "OpenTok",
-                url: "https://s3.us-east-1.amazonaws.com/artifact.tokbox.com/rel/otkit-ios-sdk-xcframework/OpenTok-iOS-2.35.1.zip",
-                checksum: "1dc79c1c3aa65803f3b00786e433846c26d3696706a53ad1db6f50571e7760c9"),
+                url: "https://s3.us-east-1.amazonaws.com/artifact.tokbox.com/rel/otkit-ios-sdk-xcframework/OpenTok-iOS-2.34.1.zip",
+                checksum: "7d9831ff5df7d2caecb0f9eac72fc05e20d2c86edc13e8a4fabe28b615d6ee0f"),
         .target(name: "OpenTokClientSDKVideo",
                 path: "Sources",
                 resources: [
