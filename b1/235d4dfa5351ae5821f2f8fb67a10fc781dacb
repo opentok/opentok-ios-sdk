@@ -1,0 +1,14 @@
+Package.swift
+  h_63b3605edfc3ba 9,22-23
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "b1235d4dfa5351ae5821f2f8fb67a10fc781dacb",
+  "prompts": {},
+  "humans": {
+    "h_63b3605edfc3ba": {
+      "author": "Raúl Albín <raul.albin@vonage.com>"
+    }
+  }
+}
